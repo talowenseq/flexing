@@ -1,8 +1,8 @@
 {
-  "name-web":"OverCliver Website",
-  "author":"OverCliver",
+  "name-web":"STACKOVERFLOW MASKODING",
+  "author":"MASKODING",
   "remove-comment-html":true,
-  "target":"https://search-manual.com",
+  "target":"https://m.tribunnews.com",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,20 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"search-manual.com",
+      "target":"stackoverflow.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://search-manual.com",
+          "target":"https://stackoverflow.com",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"m.search-manual.com",
+      "target":"m.tribunnews.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",
@@ -48,19 +48,6 @@
       ],
       "replace-string":[]
     },
-	"inject-element-head":[
-    {
-      "name-element":"meta",
-      "data-attribute":[
-        {
-          "name-attribute":"name",
-          "value-attribute":"google-site-verification"
-        },
-        {
-          "name-attribute":"content",
-          "value-attribute":"PXx4zfqucLOOa_mPNQEk02vDmo-YuTmDS1QZqn13fK0"
-        }
-      ],
     {
       "target":"www.itb.ac.id",
       "element-remove-selector":[
