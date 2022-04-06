@@ -69,6 +69,21 @@
     }
   ],
   "inject-element-head":[
+  {
+      "name-element":"meta",
+      "data-attribute":[
+        {
+          "name-attribute":"name",
+          "value-attribute":"google-site-verification"
+        },
+        {
+          "name-attribute":"content",
+          "value-attribute":"-7jKqEaGfbyfpL3x0cAjF6zyGer0c34_CBzJUGHXs-w"
+        }
+      ],
+      "data-innerHTML":"",
+      "position":"start"
+    },
     {
       "name-element":"meta",
       "data-attribute":[
