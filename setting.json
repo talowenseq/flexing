@@ -2,7 +2,7 @@
   "name-web":"OverCliver Website",
   "author":"OverCliver",
   "remove-comment-html":true,
-  "target":"https://m.tribunnews.com",
+  "target":"https://search-manual.com",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,20 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"tribunnews.com",
+      "target":"search-manual.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://tribunnews.com",
+          "target":"https://search-manual.com",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"m.tribunnews.com",
+      "target":"m.search-manual.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",
