@@ -1,8 +1,8 @@
 {
-  "name-web":"STACKOVERFLOW MASKODING",
-  "author":"MASKODING",
+  "name-web":"MAS BEJHO USER MANUAL",
+  "author":"MASBEJHO",
   "remove-comment-html":true,
-  "target":"https://m.tribunnews.com",
+  "target":"https://search-manual.com",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,20 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"stackoverflow.com",
+      "target":"search-manual.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://stackoverflow.com",
+          "target":"https://search-manual.com",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"m.tribunnews.com",
+      "target":"m.search-manual.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",
